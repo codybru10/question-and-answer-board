@@ -1,14 +1,17 @@
-Question details
+<h2> Question Details </h2>
 
-<h6>{{question.problem}}</h6>
+<h5>Question: {{question.problem}}</h5>
 <p>
-  {{question.notes}}
+  Notes: {{question.notes}}
+</p>
+<p>
+  by {{question.author}}
 </p>
 
 
 <button {{action 'delete' question}} class="btn">Delete</button>
 
-<h2> Answers </h2>
+<h3> Answers </h3>
 <ul>
   {{#each question.answers as |answer|}}
   {{answer-tile answer=answer}}

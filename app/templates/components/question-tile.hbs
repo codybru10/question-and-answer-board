@@ -1,10 +1,12 @@
 <div class="well">
-  {{#link-to 'question' question.id}}{{question.problem}} | {{question.author}}{{/link-to}}
+  <h4>{{question.problem}} | {{question.author}}</h4>
   <br>
+  {{#link-to 'question' question.id}}<p>See Answers</p>{{/link-to}}
   {{#if isNotesShowing}}
     <p>{{question.notes}}</p>
     <button {{action 'notesHide'}} class="btn">Hide Notes</button>
   {{else}}
     <button {{action 'notesShow'}} class="btn">See Notes</button>
   {{/if}}
+
 </div>
