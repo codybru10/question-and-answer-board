@@ -1,1 +1,7 @@
-{{yield}}
+Question details
+
+<h6>{{question.problem}}</h6>
+<p>
+  {{question.notes}}
+</p>
+<button {{action 'delete' question}} class="btn">Delete</button>

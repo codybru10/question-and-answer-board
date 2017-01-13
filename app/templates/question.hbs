@@ -1,3 +1,8 @@
-<h2>More information about {{model.author}}'s question:</h2>
+<div class="container">
 
-{{question-detail question=model}}
+  <h2>More information about {{model.author}}'s question:</h2>
+
+  {{question-detail question=model destroyQuestion="destroyQuestion"}}
+  <br>
+  {{update-question rental=model update="update"}}
+</div>

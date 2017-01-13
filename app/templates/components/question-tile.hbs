@@ -1,5 +1,5 @@
 <div class="well">
-  {{question.problem}} | {{question.author}}
+  {{#link-to 'question' question.id}}{{question.problem}} | {{question.author}}{{/link-to}}
   <br>
   {{#if isNotesShowing}}
     <p>{{question.notes}}</p>
@@ -7,6 +7,4 @@
   {{else}}
     <button {{action 'notesShow'}} class="btn">See Notes</button>
   {{/if}}
-  {{update-question question=question update="update"}}
-  <button {{action 'delete' question}} class="btn">Delete Question</button>
 </div>
