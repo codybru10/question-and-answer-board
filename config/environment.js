@@ -4,13 +4,20 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'question-and-answer',
     environment: environment,
-    baseURL: '/',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       }
+    },
+
+    firebase: {
+      apiKey: "AIzaSyAiW93j0aUZFlvDAIX7zyv9fEpWjStsDM4",
+    authDomain: "question-and-answer-2d9c3.firebaseapp.com",
+    databaseURL: "https://question-and-answer-2d9c3.firebaseio.com",
+    storageBucket: "question-and-answer-2d9c3.appspot.com"
     },
 
     APP: {
