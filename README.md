@@ -1,53 +1,36 @@
-# Question-and-answer
+# Question Master
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _A web app that allows a users to create a question or submit an answer for a particular question._
 
-## Prerequisites
+#### By _**Cody Brubaker**_
 
-You will need the following things properly installed on your computer.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+## Setup/Installation Requirements
 
-## Installation
+_Works in any web browser. To run Question Master, in command line run:_
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+```
+$ git clone https://github.com/codybru10/question-and-answer-board
+$ cd question-and-answer-board
+$ npm install
+$ bower install
+$ ember s
+Go to localhost:4200 in web browser
+```
 
-## Running / Development
+## Support and contact details
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+_Contact me Github at codybru10 or cody.brubaker@gmail.com_
 
-### Code Generators
+## Technologies Used
 
-Make use of the many generators for code, try `ember help generate` for more details
+* _Materialize_
+* _Ember JS_
+* _Javascript_
+* _Firebase_
 
-### Running Tests
+### License
 
-* `ember test`
-* `ember test --server`
+This software is licensed under the MIT license.
 
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Cody Brubaker**
