@@ -1,0 +1,12 @@
+<div class="well">
+  {{question.problem}} | {{question.author}}
+  <br>
+  {{#if isNotesShowing}}
+    <p>{{question.notes}}</p>
+    <button {{action 'notesHide'}} class="btn">Hide Notes</button>
+  {{else}}
+    <button {{action 'notesShow'}} class="btn">See Notes</button>
+  {{/if}}
+  {{update-question question=question update="update"}}
+  <button {{action 'delete' question}} class="btn">Delete Question</button>
+</div>

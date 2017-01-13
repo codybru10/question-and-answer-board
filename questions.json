@@ -1,13 +1,13 @@
 { "questions": [{
-    "question": "What is the answer to 2 + 2?",
+    "problem": "What is the answer to 2 + 2?",
     "author": "Mike Jones",
     "notes": "What more info do you really need?"
   }, {
-    "question": "How many days are in a year?",
+    "problem": "How many days are in a year?",
     "author": "Bob Something",
     "notes": "More details................"
   }, {
-    "question": "What is the best programming language",
+    "problem": "What is the best programming language",
     "author": "Cody",
     "notes": "Easy to learn and write"
   }]
