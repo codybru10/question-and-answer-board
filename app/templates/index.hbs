@@ -2,21 +2,12 @@
   <h1>Questions</h1>
 
   <ul>
-    {{#each model.rentals as |question|}}
+    {{#each model.questions as |question|}}
        {{question-tile question=question}}
     {{/each}}
   </ul>
 
   {{new-question saveQuestion2="saveQuestion3"}}
 
-  <hr>
-
-  <ul>
-    {{#each model.answers as |answer|}}
-      <li>{{answer.solution}} - {{answer.user}}</li>
-    {{/each}}
-  </ul>
-
-  {{new-answer saveAnswer="saveAnswer"}}
 
 </div>

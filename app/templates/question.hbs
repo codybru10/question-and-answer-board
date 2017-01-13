@@ -2,7 +2,7 @@
 
   <h2>More information about {{model.author}}'s question:</h2>
 
-  {{question-detail question=model destroyQuestion="destroyQuestion"}}
+  {{question-detail question=model destroyQuestion="destroyQuestion"}}  {{update-question rental=model update="update"}}
   <br>
-  {{update-question rental=model update="update"}}
+  {{new-answer saveAnswer="saveAnswer" question=model}}
 </div>
