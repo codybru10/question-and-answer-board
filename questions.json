@@ -10,5 +10,12 @@
     "problem": "What is the best programming language",
     "author": "Cody",
     "notes": "Easy to learn and write"
+  }],
+  "answers": [{
+    "solution": "4",
+    "user": "Cody"
+  }, {
+    "solution": "365",
+    "user": "Wiseguy"
   }]
 }
